@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Simple Test Build</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Backrooms Mini‑Game</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Welcome to the Test Build</h1>
-    <button id="clickMe">Click Me</button>
+<div id="game">
+  <div id="player"></div>
+  <div id="echo"></div>
+  <div id="fragment" class="collectible"></div>
 
-    <script src="script.js"></script>
+  <div id="sanity" class="meter"><div class="fill"></div></div>
+  <div id="info">↑↓←→ move • <kbd>F</kbd> bind echo • click fragment</div>
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
